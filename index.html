@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="/elements\header\header.css" />
+    <link rel="stylesheet" href="/global.css" />
+
+    <script src="menu.js" type="module" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header boxes-containers">
+        <a href="">
+          <svg class="logo-header header-margin">
+            <use href="/svg/icons-main-page.svg#icon-logo-stroke"></use></svg
+        ></a>
+
+        <ul class="main-nav">
+          <li><a class="main-nav-item" href="">Головна</a></li>
+          <li><a class="main-nav-item" href="">Новини</a></li>
+          <li><a class="main-nav-item" href="">Заходи</a></li>
+          <li><a class="main-nav-item" href="">Розклад</a></li>
+          <li><a class="main-nav-item" href="">Контакти</a></li>
+        </ul>
+        <a class="main-nav-item main-nav" href="">Q&A</a>
+        <div>
+          <button data-menu-open class="burger-button header-margin">
+            <svg class="burger-svg">
+              <use href="/svg/icons-main-page.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- МЕНЮШКА -->
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu-container">
+          <button data-menu-close class="modal-butt butt-color" type="button">
+            <svg class="close-svg" width="8" height="8">
+              <use href="/svg/icons-main-page.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-win-ul">
+              <li>
+                <a class="mob-win-nav" href="">Головна</a>
+              </li>
+              <li><a class="mob-win-nav" href="">Контакти</a></li>
+              <li><a class="mob-win-nav" href="">Новини</a></li>
+
+              <li><a class="mob-win-nav" href="">Розклад</a></li>
+
+              <li><a class="mob-win-nav" href="">Заходи</a></li>
+
+              <li><a class="mob-win-nav" href="">Q&A</a></li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="modal-gap">
+              <li>
+                <a class="modal-num" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="modal-num" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-svg-list">
+            <li>
+              <a class="svg-sphere" href=""
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="/svg/icons-main-page.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="svg-sphere" href=""
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="/svg/icons-main-page.svg#icon-insta"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="svg-sphere" href=""
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="/svg/icons-main-page.svg#icon-telegram"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
