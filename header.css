@@ -173,6 +173,7 @@
 }
 
 .mobile-menu.is-open {
+  z-index: 100;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -275,7 +276,6 @@
 }
 
 .hero-section-h {
-  z-index: 9;
   margin-bottom: 15px;
   font-weight: 900;
   font-size: 24px;
