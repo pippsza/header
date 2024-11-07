@@ -240,7 +240,7 @@
       rgba(27, 42, 56, 0.85) 62%,
       rgba(50, 67, 83, 0.85) 100%
     ),
-    url("/mobile-cover.jpg");
+    url("mobile-cover.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -257,7 +257,7 @@
         rgba(27, 42, 56, 0.85) 62%,
         rgba(50, 67, 83, 0.85) 100%
       ),
-      url("/tablet-cover.jpg");
+      url("tablet-cover.jpg");
   }
 }
 
@@ -270,7 +270,7 @@
         rgba(27, 42, 56, 0.85) 62%,
         rgba(50, 67, 83, 0.85) 100%
       ),
-      url("/desktop-cover.jpg");
+      url("desktop-cover.jpg");
   }
 }
 
