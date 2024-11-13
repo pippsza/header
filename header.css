@@ -510,3 +510,9 @@
     height: 24px;
   }
 }
+.footer-media-orb:hover {
+  background-color: #a0aec1;
+}
+.footer-media-item:hover {
+  color: #a0aec1;
+}
